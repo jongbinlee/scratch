@@ -1,3 +1,6 @@
-a = input('Your name: ')
-print('hello ' + a+'!')
+import pandas as pd
+import numpy as np
+import seaborn as sns
 
+iris = sns.load_dataset('iris')
+iris.head()
